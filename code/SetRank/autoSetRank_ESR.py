@@ -419,7 +419,7 @@ if __name__ == "__main__":
                                                'algorithm on S2-CS dataset.')
   parser.add_argument('-query', required=False, default="../../data/S2-CS/s2_query.json",
                       help='File name of test queries.')
-  parser.add_argument('-output', required=False, default="../results/s2/auto-tune.run",
+  parser.add_argument('-output', required=False, default="../../results/s2/auto-tune.run",
                       help='File name of output results.')
   parser.add_argument('-kb', required=False, default="../../data/S2-CS/s2_entity_type.tsv")
   parser.add_argument('-mode', required=False, default="tune",
