@@ -410,7 +410,7 @@ if __name__ == "__main__":
                                                'algorithm on TREC dataset.')
   parser.add_argument('-query', required=False, default="../../data/TREC-BIO/trec_query.json",
                       help='File name of test queries.')
-  parser.add_argument('-output', required=False, default="../results/trec/auto-tune.run",
+  parser.add_argument('-output', required=False, default="../../results/trec/auto-tune.run",
                       help='File name of output results.')
   parser.add_argument('-kb', required=False, default="../../data/TREC-BIO/trec_entity_type.tsv")
   parser.add_argument('-mode', required=False, default="tune",
